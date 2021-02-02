@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2160Assignment2</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="enter_celsius">Enter Celsius</string>
+    <string name="value">Value</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="convert">Convert</string>
+</resources>
