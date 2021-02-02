@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     //Declaring Widgets
-    EditText editText;
+    EditText editTextNumber;
     TextView textView, textView2, valueOfFah, textView4;
     Button button;
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         valueOfFah = findViewById(R.id.valueOfFah);
         textView4 = findViewById(R.id.textView4);
 
-        editText = findViewById(R.id.editText);
+        editTextNumber = findViewById(R.id.editTextNumber);
 
         button = findViewById(R.id.button);
 
@@ -52,12 +52,12 @@ public class MainActivity extends AppCompatActivity {
 //            });
     }
 
-    public void onClick(View view) {
+    public void buttonClick(View view) {
         ConvertCelstoFah();
     }
 
     private void ConvertCelstoFah() {
-        String valueinCels = editText.getText().toString();
+        String valueinCels = editTextNumber.getText().toString();
 
         //converting string to number
         double Cels = Double.parseDouble(valueinCels);
